@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #200D0D;
+    color: white;
+}
+
+header {
+    padding: 20px;
+}
+
+#logo {
+    width: 150px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(50vh - 40px);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #41D272;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #32a062;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+main {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+main h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+    color: white;
+}
+
+form input[type="text"],
+form input[type="name"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #41D272;
+    border-radius: 3px;
+    background-color: #200D0D;
+    color: white;
+}
+
+form input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #41D272;
+    margin-top: 50px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+}
+
+.footer a {
+    color: #41D272;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #200D0D;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#logo {
+    width: 150px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(50vh - 40px);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #41D272;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #200D0D;
+    color: white;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #41D272;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #38b763;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+}
+
+#downloadLink {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#copyButton {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+#copyButton:hover {
+    background-color: #45a049;
+}
+
+
+.ui-widget-header, .ui-state-default, ui-button {
+    background: #41D272;
+    border: 1px solid #41D272;
+    color: #200D0D;
+    font-weight: bold;
+}
+
+.ui-dialog .ui-dialog-content {
+    background: #200D0D;
+    color: #41D272;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    background: #200D0D;
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button {
+    background: #41D272;
+    color: #200D0D;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    display: none;
+}
+
+#faq {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+}
+
+#faq h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: relative; /* Add this to position the icon relative to the question */
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    border: 1px solid #41D272;
+    border-radius: 3px;
+    background-color: #200D0D;
+}
+
+.dropdown-icon {
+    position: absolute; /* Absolutely position the icon */
+    right: 0; /* Push it to the right edge of the question */
+    transition: transform 0.3s ease;
+    width: 16px; /* Adjust size as needed */
+    height: 16px; /* Adjust size as needed */
+}
+
+.flipped {
+    transform: rotate(180deg);
+}

@@ -1,0 +1,5 @@
+- Zeitplan aktualisieren ✔
+- Inhaltsverzeichniss✔
+- Informieren mehr schreiben (Use-Case)✔
+- Tests Gerät (i5 etc)✔
+- Text bei Tests (bezieht sich auf planen etc)✔
